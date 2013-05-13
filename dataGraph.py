@@ -1,9 +1,8 @@
 from numpy import * 
 from matplotlib.pyplot import * 
  
-# Global Variables
-dAccGrav = 9.81
-dVelTerm = -0.5
+g = 9.81 #gravity
+v = -0.5 #terminal velocity
  
 # Finite Difference
 # input:
