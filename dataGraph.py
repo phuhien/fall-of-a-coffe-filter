@@ -102,7 +102,7 @@ def quadraticFallingModelVel(rgState):
  
 # Approximate solutions 
 v0=velocity[0]
-linearModel = [array([positionArray[0], v0])]		# assuming no intial velocity, may change to assume 
+linearModel = [array([positionArray[0], v0])]		# assuming there is a intial velocity, may change to assume 
 quadraticModel = [array([positionArray[0], v0])]		# initial velocity found via finite difference
  
 for it in timeArray[0:-1]:
